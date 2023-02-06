@@ -74,7 +74,7 @@ body {
     align-items: center;
     color: var(--color-gray2);
     text-decoration: none;
-    margin-left: 10px;
+    gap: 10px;
 }
 .header-icon {
     list-style: none;
@@ -82,17 +82,14 @@ body {
     align-items: center; 
     fill: var(--color-gray2);
     margin-left: 30px;
-} 
+}
 .link:hover, .link:focus,
 .contact:hover, .contact:focus,
-.header-icon:hover, .header-icon:focus 
- {
-    color:var(--color-blue);
-    fill: var(--color-blue);  
-}
 .smart:hover, .smart:focus,
-.envelope:hover, .envelope:focus {
-    fill: var(--color-blue);
+.envelope:hover, .envelope:focus
+ {
+    color:var(--color-blue); 
+    fill: var(--color-blue); 
 }
 .efect-section, .img {     
     background-image: linear-gradient(
@@ -137,15 +134,6 @@ body {
     margin-top: 30px;
     cursor: pointer;
   }
-.icons {
-  margin: 25px 100px;
-}
-  .icons-background {
-    width: 270px;
-    height: 120px;
-    background: #F5F4FA;
-    border-radius: 4px;
-  }
 .lorem {
     font-size: 14px;
     list-style: none;
@@ -155,14 +143,6 @@ body {
     gap: 30px;
     justify-content: space-between;    
 }
-.txt-1 {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: var(--color-blue);
-        
-}
 .title-l {
     font-weight: 700;
     font-size: 14px;
@@ -171,7 +151,22 @@ body {
     margin-bottom: 10px;
     padding-top: 30px;
 }
-
+p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--color-gray2);
+}
+.icons {
+  margin: 25px 100px;
+}
+.icons-background {
+    width: 270px;
+    height: 120px;
+    background: #F5F4FA;
+    border-radius: 4px;
+ }
 .images {
     text-align: center;
     margin-top: 94px;    
@@ -347,25 +342,20 @@ body {
     list-style: none;
     justify-content: space-between;
   }
-  .our-clients-logo {
+  .our-clients-icon {
     border: var(--color-fill) 1px solid;
     border-radius: 4px;
     width: 170px;
     height: 92px;
-  }
-  .our-clients-link {
     fill: var(--color-fill);
   }
-  .our-clients-icon:hover, .our-clients-icon:focus,
-  .our-clients-logo:hover, .our-clients-logo:focus {
+ .our-clients-icon:hover, .our-clients-icon:focus {
     border: var(--color-blue) 1px solid;
     border-radius: 4px;
+    width: 170px;
+    height: 92px;
     fill: var(--color-blue);
-  }
-  .icon:hover, .envelope:focus
-   {
-    color: var(--color-blue);
-  }
+}
 .footer {
     background: var(--color-dark);
     padding-top: 60px;
