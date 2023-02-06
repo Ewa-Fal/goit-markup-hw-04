@@ -329,16 +329,18 @@ p {
     font-weight: 700;
     text-align: center;
     line-height: 1.17;
-    padding-bottom: 50px;
+    padding-top: 94px;
+    margin-bottom: 50px;
+    
   }
   .our-clients {
-    padding-top: 94px;
-    padding-bottom: 94px;
+    
   }
   .our-clients-logo-all {
     display: flex;
     list-style: none;
     justify-content: space-between;
+    padding-bottom: 94px;
   }
   .our-clients-icon {
     border: var(--color-fill) 1px solid;
