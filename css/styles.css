@@ -144,16 +144,14 @@ body {
     justify-content: space-between;    
 }
 .title-l {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
+   font-weight: 700;
+   line-height: 1.14;
+   letter-spacing: 0.03em;
     margin-bottom: 10px;
     padding-top: 30px;
 }
 p {
     font-weight: 400;
-    font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--color-gray2);
